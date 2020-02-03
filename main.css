@@ -1,0 +1,203 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #A7DBD8;
+    overflow: hidden;
+}
+
+.topBanner {
+    position: relative;
+    height: 65px;
+    width: 100%;
+}
+
+.logIn-box {
+    position: absolute;
+    height: 65px;
+    width: 100px;
+    background: #FBF8F5;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 45%;
+    border-top-right-radius: 15px;
+    left: -11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logIn {
+    position: absolute;
+    margin: 0;
+    bottom: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #A7DBD8;
+
+}
+
+.titleWrapper {
+    position: relative;
+    height: 150px;
+    width: 100%;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 150px;
+    letter-spacing: -11px;
+    color: #FBF8F5;
+    margin: 0;
+
+}
+
+.email-box {
+    position: relative;
+    height: 55px;
+    width: 100%;
+    top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.email {
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    transition: 1s;
+
+}
+
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+
+
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+
+
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+
+
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+
+
+}
+
+.options-wrap {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.options {
+    position: absolute;
+    width: 860px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.service-box,
+.bedroom-box,
+.bathroom-box,
+.kitchen-box {
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.service-box {
+    left: 0;
+}
+
+.bedroom-box {
+    left: 220px;
+}
+
+
+.kitchen-box {
+    right: 220px;
+}
+
+
+.bathroom-box {
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.email:focus {
+    width: 600px;
+
+
+}
