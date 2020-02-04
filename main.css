@@ -1,244 +1,201 @@
-body,
-html {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-
-
-
-}
-
-/*----TOP CONTENTS----*/
-
-.topWrapper,
-.login-btn,
-.register-btn,
-.centerWrapper,
-.centerContents,
-.service-btn,
-.bedroom-btn,
-.bathroom-btn,
-.kitchen-btn,
-.bookCleaner-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
-}
-
-.topWrapper {
-    position: relative;
-    height: 135px;
-    width: 100%;
-}
-
-.logoText {
-    position: absolute;
-    bottom: 3px;
-    letter-spacing: -1px;
-    font-size: 15px;
-    font-weight: 100;
-
-}
-
-.login-btn,
-.register-btn {
-    position: absolute;
-    height: 40px;
-    width: 100px;
-    font-weight: bolder;
-    border-radius: 7px;
-    background-color: #fff;
-    cursor: pointer;
-
-}
-
-.login-btn {
-    left: 20px;
-    top: 20px;
-    border: 2px solid #A7DBD8;
-    color: #A7DBD8;
-
-}
-
-.register-btn {
-    left: 140px;
-    border: 2px solid #E08872;
-    color: #E08872;
-    top: 20px;
-
-}
-
-
-/*----CENTER CONTENTS----*/
-
-.centerWrapper {
-    position: relative;
-    height: 345px;
-    width: 100%;
-    top: 100px;
-}
-
-.centerContents {
-    position: absolute;
-    width: 825px;
-    height: 340px;
-
-}
-
-.email {
-    position: absolute;
-    top: 0;
-    height: 20px;
-    width: 600px;
-    border: none;
-    outline: none;
-    text-align: center;
-    transition: 1s;
-}
-
-::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
-    color: #000;
-    font-weight: bold;
-    text-align: center;
-    font-size: 18px;
-    opacity: 0.5;
-}
-
-::-moz-placeholder {
-    /* Firefox 19+ */
-    color: #000;
-    font-weight: bold;
-    text-align: center;
-    font-size: 18px;
-    opacity: 0.5;
-}
-
-:-ms-input-placeholder {
-    /* IE 10+ */
-    color: #000;
-    font-weight: bold;
-    text-align: center;
-    font-size: 18px;
-    opacity: 0.5;
-}
-
-:-moz-placeholder {
-    /* Firefox 18- */
-    color: #000;
-    font-weight: bold;
-    text-align: center;
-    font-size: 18px;
-    opacity: 0.5;
-}
-
-.buttonWrap {
-    position: absolute;
-    height: 55px;
-    width: 790px;
-    top: 60px;
-}
-
-.service-btn,
-.bedroom-btn,
-.bathroom-btn,
-.kitchen-btn {
-    position: absolute;
-    height: 55px;
-    width: 190px;
-    cursor: pointer;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    transition: 0.3s;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600&display=swap');
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    body,
+    html {
+        height: 667px;
+        width: 375px;
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+    .topWrapper,
+    .centerWrapper,
+    .centerContents,
+    .service-box,
+    .bedroom-box,
+    .bathroom-box,
+    .kitchen-box,
+    .buttonWrap,
+    .bookCleaner-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .service-box,
+    .bedroom-box,
+    .bathroom-box,
+    .kitchen-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .topWrapper {
+        position: relative;
+        height: 85px;
+        width: 100%;
+    }
+
+    .logo {
+        position: absolute;
+        height: 60px;
+    }
+
+    .sub-text {
+        position: absolute;
+        bottom: 0;
+        font-size: 11px;
+    }
+
+    .centerWrapper {
+        position: relative;
+        height: 320px;
+        width: 100%;
+        top: 80px;
+
+    }
+
+    .centerContents {
+        position: absolute;
+        width: 220px;
+        height: 320px;
+    }
+
+    .email {
+        position: absolute;
+        top: 12px;
+        height: 10px;
+        width: 300px;
+        border: none;
+        outline: none;
+        text-align: center;
+        transition: 1s;
+
+    }
+
+    .service-box {
+        position: absolute;
+        height: 120px;
+        width: 100px;
+        left: 0;
+        top: 65px;
+    }
+
+    .service-text {
+        position: absolute;
+        bottom: 10px;
+        font-size: 19px;
+        margin: 0;
+    }
+
+    .service-icon {
+        position: absolute;
+        top: 15px;
+    }
 
-}
+    .bedroom-box {
+        position: absolute;
+        height: 120px;
+        width: 100px;
+        right: 0;
+        top: 65px;
+    }
 
-.service-text,
-.bedroom-text,
-.bathroom-text,
-.kitchen-text {
-    position: absolute;
-    font-weight: normal;
-    font-size: 20px;
-    margin: 0;
+    .bedroom-text {
+        position: absolute;
+        bottom: 10px;
+        font-size: 19px;
+        margin: 0;
+    }
 
-}
+    .bedroom-icon {
+        position: absolute;
+        top: 15px;
 
-.service-btn {
-    left: 0;
+    }
 
-}
+    .bathroom-box {
+        position: absolute;
+        height: 120px;
+        width: 100px;
+        left: 0;
+        bottom: 0px;
+    }
 
-.service-text {
-    left: 63px;
+    .bathroom-text {
+        position: absolute;
+        bottom: 10px;
+        font-size: 19px;
+        margin: 0;
+    }
 
-}
+    .bathroom-icon {
+        position: absolute;
+        top: 15px;
 
-.serviceIcon {
-    position: absolute;
-    left: 30px;
+    }
 
-}
+    .kitchen-box {
+        position: absolute;
+        height: 120px;
+        width: 100px;
+        right: 0;
+        bottom: 0px;
+    }
 
-.bedroom-btn {
-    left: 200px;
+    .kitchen-text {
+        position: absolute;
+        bottom: 10px;
+        font-size: 19px;
+        margin: 0;
+    }
 
+    .kitchen-icon {
+        position: absolute;
+        top: 15px;
 
-}
+    }
 
-.bedroom-text {
-    left: 52px;
+    .buttonWrap {
+        position: relative;
+        height: 40px;
+        width: 100%;
+        top: 100px;
 
-}
+    }
 
-.bedroomIcon {
-    position: absolute;
-    left: 17px;
+    .bookCleaner-btn {
+        position: absolute;
+        height: 40px;
+        width: 220px;
+        background-color: #A7DBD8;
+        border-radius: 5px;
+        font-weight: 500;
+        color: #fff;
 
-}
+    }
 
-.bathroom-btn {
-    left: 400px;
-}
+    .bottomWrap {
+        position: relative;
+        height: 50px;
+        width: 100%;
+        bottom: 0;
+        border: 1px solid black;
+    }
 
-.bathroom-text {
-    position: absolute;
-    left: 46px;
-}
 
-.bathroomIcon {
-    position: absolute;
-    left: 15px;
-}
 
-.kitchen-btn {
-    position: absolute;
-    right: 0;
-}
 
-.kitchenIcon {
-    position: absolute;
-    left: 28px;
-}
 
-.kitchen-text {
-    position: absolute;
-    left: 64px;
-}
 
-.bookCleaner-btn {
-    position: absolute;
-    height: 45px;
-    width: 160px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #A7DBD8;
-    border-radius: 5px;
 
-}
 
 
 
@@ -250,40 +207,71 @@ html {
 
 
 
-/*----HOVERS & SUCH----*/
 
 
-.login-btn:hover,
-.register-btn:hover {
-    box-shadow:
-        0 0.9px 2.2px rgba(0, 0, 0, 0.07),
-        0 2.2px 5.3px rgba(0, 0, 0, 0.05),
-        0 4.1px 10px rgba(0, 0, 0, 0.042),
-        0 7.4px 17.9px rgba(0, 0, 0, 0.035),
-        0 13.8px 33.4px rgba(0, 0, 0, 0.028),
-        0 33px 80px rgba(0, 0, 0, 0.02);
-}
 
-.login-btn:active,
-.register-btn:active,
-.service-btn:active,
-.bedroom-btn:active,
-.bathroom-btn:active,
-.kitchen-btn:active {
-    box-shadow: none;
-}
 
-.email:focus {
-    height: 40px;
-    border-top: 2px solid #A7DBD8;
-    border-bottom: 2px solid #A7DBD8;
-    background-color: rgba(167, 219, 216, 0.274);
 
-}
 
-.service-btn:hover,
-.bedroom-btn:hover,
-.bathroom-btn:hover,
-.kitchen-btn:hover {
-    background-color: rgba(218, 218, 218, 0.308);
+    ::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: #000;
+    }
+
+    ::-moz-placeholder {
+        /* Firefox 19+ */
+        color: #000;
+    }
+
+    :-ms-input-placeholder {
+        /* IE 10+ */
+        color: #000;
+    }
+
+    :-moz-placeholder {
+        /* Firefox 18- */
+        color: #000;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*------HOVERS AND SUCH------*/
+
+
+    .email:focus {
+        height: 30px;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+
+    }
+
+    .service-box:active,
+    .bedroom-box:active,
+    .bathroom-box:active,
+    .kitchen-box:active {
+        background-color: rgba(221, 221, 221, 0.212);
+    }
+
+    .bookCleaner-btn:active {
+        background-color: rgb(171, 226, 223);
+    }
+
+
+
+
+
+
 }
