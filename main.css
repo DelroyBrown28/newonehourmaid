@@ -3,254 +3,75 @@ html {
     height: 100%;
     width: 100%;
     margin: 0;
-    background-color: #A7DBD8;
-    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
-.topBanner {
-    position: relative;
-    height: 65px;
-    width: 100%;
-}
-
-.crossbox {
-    position: absolute;
-    
-}
-
-.logIn-box {
-    position: absolute;
-    height: 65px;
-    width: 100px;
-    background: #FBF8F5;
-    border-bottom-right-radius: 100%;
-    border-bottom-left-radius: 45%;
-    border-top-right-radius: 15px;
-    left: -11px;
+.topWrapper,
+.login-btn,
+.register-btn {
     display: flex;
     align-items: center;
     justify-content: center;
+
+
 }
 
-.logIn {
+.topWrapper {
+    position: relative;
+    height: 135px;
+    width: 100%;
+}
+
+.logoText {
     position: absolute;
-    margin: 0;
-    bottom: 28px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
+    bottom: 3px;
+    letter-spacing: -1px;
+    font-size: 15px;
+    font-weight: 100;
+
+}
+
+.login-btn,
+.register-btn {
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    font-weight: bolder;
+    border-radius: 7px;
+    background-color: #fff;
+    cursor: pointer;
+
+}
+
+.login-btn {
+    left: 20px;
+    top: 20px;
+    border: 2px solid #A7DBD8;
     color: #A7DBD8;
 
 }
 
-.socials-wrap {
-    position: absolute;
-    height: 30px;
-    width: 120px;
-    right: 20px;
+.register-btn {
+    left: 140px;
+    border: 2px solid #E08872;
+    color: #E08872;
     top: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-.icon {
-    color: #FBF8F5;
-    font-size: 30px;
-    cursor: pointer;
-}
-
-.fa-facebook-square {
-    margin: 0px 13px 0px 13px;
-}
-
-
-
-.titleWrapper {
-    position: relative;
-    height: 150px;
-    width: 100%;
-    top: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.title {
-    position: absolute;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
-    font-size: 150px;
-    letter-spacing: -11px;
-    color: #FBF8F5;
-    margin: 0;
 
 }
 
-.email-box {
-    position: relative;
-    height: 55px;
-    width: 100%;
-    top: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+.login-btn:hover,
+.register-btn:hover {
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.07),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.05),
+        0 12.5px 10px rgba(0, 0, 0, 0.042),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.035),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.028),
+        0 100px 80px rgba(0, 0, 0, 0.02);
 }
 
-.email {
-    height: 40px;
-    width: 600px;
-    border: none;
-    background-color: rgba(251, 248, 245, 0.459);
-    outline: none;
-    text-align: center;
-    transition: 1s;
-
-}
-
-
-::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
-    color: black;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-
-
-}
-
-::-moz-placeholder {
-    /* Firefox 19+ */
-    color: black;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-
-
-}
-
-:-ms-input-placeholder {
-    /* IE 10+ */
-    color: black;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-
-
-}
-
-:-moz-placeholder {
-    /* Firefox 18- */
-    color: black;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-
-
-}
-
-.options-wrap {
-    position: relative;
-    height: 40px;
-    width: 100%;
-    top: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
-}
-
-.options {
-    position: absolute;
-    width: 860px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    
-}
-
-.service-box,
-.bedroom-box,
-.bathroom-box,
-.kitchen-box {
-    position: absolute;
-    height: 40px;
-    width: 200px;
-    border-bottom: 1px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Montserrat', sans-serif;
-
-}
-
-.service-box {
-    left: 0;
-}
-
-.bedroom-box {
-    left: 220px;
-}
-
-
-.kitchen-box {
-    right: 220px;
-}
-
-
-.bathroom-box {
-    right: 0;
-}
-
-.btn-wrap {
-    position: relative;
-    height: 65px;
-    width: 100%;
-    top: 200px;
-    display: flex;
-    justify-content: center;
-
-}
-
-.bookCleaner-btn {
-    position: absolute;
-    height: 48px;
-    width: 150px;
-    background-color: #FBF8F5;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.email:focus {
-    width: 600px;
-    border-bottom: 1px solid #000;
-    border-radius: 0;
-    background: transparent;
-
-
+.login-btn:active,
+.register-btn:active {
+    box-shadow: none;
 }
