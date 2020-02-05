@@ -19,7 +19,7 @@
 
     .topWrapper {
         position: relative;
-        height: 93px;
+        height: 65px;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -28,13 +28,13 @@
 
     .logo {
         position: absolute;
-        height: 70px;
+        height: 40px;
         top: 15px;
     }
 
     .sub-title {
         position: absolute;
-        font-size: 11px;
+        font-size: 9px;
         bottom: 0;
         margin: 0;
         letter-spacing: -0.3px;
@@ -46,7 +46,7 @@
         bottom: 0px;
         display: flex;
         justify-content: center;
-        
+
 
     }
 
@@ -54,7 +54,7 @@
         position: relative;
         height: 366px;
         width: 250px;
-        
+
         display: flex;
         justify-content: center;
 
@@ -104,7 +104,7 @@
         position: absolute;
         height: 125px;
         width: 105px;
-        
+
         display: flex;
         justify-content: center;
         left: 0;
@@ -126,7 +126,7 @@
         position: absolute;
         height: 125px;
         width: 105px;
-        
+
         display: flex;
         justify-content: center;
         right: 0;
@@ -148,7 +148,7 @@
         position: absolute;
         height: 125px;
         width: 105px;
-        
+
         display: flex;
         justify-content: center;
         bottom: 76px;
@@ -171,7 +171,7 @@
         position: absolute;
         height: 125px;
         width: 105px;
-        
+
         display: flex;
         justify-content: center;
         bottom: 76px;
@@ -216,7 +216,7 @@
         height: 45px;
         width: 100%;
         bottom: 0;
-        
+
         display: flex;
         justify-content: center;
 
@@ -226,10 +226,10 @@
         position: absolute;
         height: 45px;
         width: 292px;
-        
+
         display: flex;
-        align-items: center;    
-        
+        align-items: center;
+
 
     }
 
@@ -240,7 +240,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
 
     }
 
@@ -265,7 +265,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
 
     }
 
@@ -290,7 +290,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
 
     }
 
@@ -315,7 +315,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
 
     }
 
@@ -331,12 +331,6 @@
         height: 20px;
         left: 0;
     }
-
-
-
-
-
-
 
 
 
@@ -357,6 +351,13 @@
 
     input:focus::placeholder {
         color: transparent;
+    }
+
+    .service-box:active,
+    .bedroom-box:active,
+    .bathroom-box:active,
+    .kitchen-box:active {
+        background-color: #e4e4e4;
     }
 
 
