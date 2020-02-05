@@ -23,7 +23,6 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        border: 1px solid black;
 
     }
 
@@ -47,7 +46,7 @@
         bottom: 0px;
         display: flex;
         justify-content: center;
-        border: 1px solid black;
+        
 
     }
 
@@ -55,7 +54,7 @@
         position: relative;
         height: 366px;
         width: 250px;
-        border: 1px solid black;
+        
         display: flex;
         justify-content: center;
 
@@ -64,7 +63,7 @@
     .emailWrap {
         position: relative;
         width: 100%;
-        height: 115px;
+        height: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -83,27 +82,29 @@
 
     }
 
-    ::-webkit-input-placeholder { /* Edge */
+    ::-webkit-input-placeholder {
+        /* Edge */
         color: #000;
         text-align: center;
-      }
-      
-      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    }
+
+    :-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
         color: #000;
         text-align: center;
-      }
-      
-      ::placeholder {
+    }
+
+    ::placeholder {
         color: #000;
         text-align: center;
-      }
+    }
 
 
     .service-box {
         position: absolute;
         height: 125px;
         width: 105px;
-        border: 1px solid black;
+        
         display: flex;
         justify-content: center;
         left: 0;
@@ -125,7 +126,7 @@
         position: absolute;
         height: 125px;
         width: 105px;
-        border: 1px solid black;
+        
         display: flex;
         justify-content: center;
         right: 0;
@@ -147,7 +148,7 @@
         position: absolute;
         height: 125px;
         width: 105px;
-        border: 1px solid black;
+        
         display: flex;
         justify-content: center;
         bottom: 76px;
@@ -170,7 +171,7 @@
         position: absolute;
         height: 125px;
         width: 105px;
-        border: 1px solid black;
+        
         display: flex;
         justify-content: center;
         bottom: 76px;
@@ -215,9 +216,125 @@
         height: 45px;
         width: 100%;
         bottom: 0;
-        border: 1px solid black;
+        
+        display: flex;
+        justify-content: center;
 
     }
+
+    .bottomContents {
+        position: absolute;
+        height: 45px;
+        width: 292px;
+        
+        display: flex;
+        align-items: center;    
+        
+
+    }
+
+    .serviceInfo-box {
+        position: absolute;
+        height: 25px;
+        width: 83px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+
+    .serviceInfo-text {
+        position: absolute;
+        right: 0px;
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .serivceInfo-icon {
+        position: absolute;
+        height: 20px;
+        left: 0;
+    }
+
+    .bedroomInfo-box {
+        position: absolute;
+        height: 25px;
+        width: 57px;
+        left: 95px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+
+    .bedroomInfo-text {
+        position: absolute;
+        right: 0px;
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .bedroomInfo-icon {
+        position: absolute;
+        height: 20px;
+        left: 0;
+    }
+
+    .bathroomInfo-box {
+        position: absolute;
+        height: 25px;
+        width: 57px;
+        left: 164px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+
+    .bathroomInfo-text {
+        position: absolute;
+        right: 0px;
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .bathroomInfo-icon {
+        position: absolute;
+        height: 20px;
+        left: 0;
+    }
+
+    .kitchenInfo-box {
+        position: absolute;
+        height: 25px;
+        width: 57px;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+
+    .kitchenInfo-text {
+        position: absolute;
+        right: 0px;
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .kitchenInfo-icon {
+        position: absolute;
+        height: 20px;
+        left: 0;
+    }
+
+
+
+
 
 
 
@@ -232,8 +349,9 @@
 
     .email:focus {
         width: 230px;
+        height: 55px;
         background-color: rgba(167, 219, 216, 0.288);
-        border-radius: 20px;
+        border-radius: 5px;
         opacity: 1;
     }
 
