@@ -22,7 +22,9 @@
     .bathroom-box,
     .kitchen-box,
     .buttonWrap,
-    .bookCleaner-btn {
+    .bookCleaner-btn,
+    .bottomWrap,
+    .services-info {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -183,12 +185,60 @@
     }
 
     .bottomWrap {
-        position: relative;
+        position: absolute;
         height: 50px;
         width: 100%;
         bottom: 0;
         border: 1px solid black;
     }
+
+    .services-info {
+        position: absolute;
+        width: 80px;
+        height: 24px;
+        font-size: 20px;
+        left: 45px;
+    }
+
+    .servicesInfo-text {
+        position: absolute;
+        margin: 0;
+        right: 0;
+    }
+
+
+    .servicesInfo-icon {
+        position: absolute;
+        height: 20px;
+        left: 0;
+    }
+
+    .bedroom-info {
+        position: absolute;
+        width: 80px;
+        height: 24px;
+        font-size: 20px;
+        left: 135px;
+    }
+
+    .bedroomInfo-text {
+        position: absolute;
+        margin: 0;
+        right: 0;
+    }
+
+
+    .bedroomInfo-icon {
+        position: absolute;
+        height: 20px;
+        left: 0;
+    }
+
+
+
+
+
+
 
 
 
