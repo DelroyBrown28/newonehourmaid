@@ -63,13 +63,14 @@
 
     .email {
         position: absolute;
-        height: 30px;
+        height: 45px;
         width: 200px;
         border: none;
         outline: none;
         text-align: center;
         transition: 0.5s;
-        opacity: 0.5;
+        opacity: 1;
+
     }
 
     ::-webkit-input-placeholder {
@@ -232,8 +233,6 @@
     }
 
 
-
-
     .serviceInfo-text {
         position: absolute;
         right: 0px;
@@ -289,6 +288,7 @@
         left: 0;
     }
 
+
     /*------HOVERS & SUCH------*/
 
     .bookCleaner-btn:active {
@@ -298,14 +298,22 @@
     .email:focus {
         width: 230px;
         height: 55px;
-        background-color: rgba(167, 219, 216, 0.288);
+        background-color: rgba(167, 219, 216, 0.452);
         border-radius: 5px;
+        color: #E08872;
         opacity: 1;
     }
 
     input:focus::placeholder {
         color: transparent;
+
     }
+
+    input:active {
+        background-image: none;
+
+    }
+
 
     .service-box:active,
     .bedroom-box:active,
