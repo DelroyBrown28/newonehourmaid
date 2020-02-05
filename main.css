@@ -13,7 +13,7 @@
         font-family: 'Montserrat', sans-serif;
         display: flex;
         flex-direction: column;
-        
+
 
     }
 
@@ -43,9 +43,8 @@
 
     .centerWrapper {
         position: relative;
-        height: 366px;
         width: 100%;
-        top: 70px;
+        bottom: 0px;
         display: flex;
         justify-content: center;
         border: 1px solid black;
@@ -61,6 +60,44 @@
         justify-content: center;
 
     }
+
+    .emailWrap {
+        position: relative;
+        width: 100%;
+        height: 115px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .email {
+        position: absolute;
+        height: 30px;
+        width: 200px;
+        border: none;
+        outline: none;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0.5;
+
+
+    }
+
+    ::-webkit-input-placeholder { /* Edge */
+        color: #000;
+        text-align: center;
+      }
+      
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #000;
+        text-align: center;
+      }
+      
+      ::placeholder {
+        color: #000;
+        text-align: center;
+      }
+
 
     .service-box {
         position: absolute;
@@ -164,17 +201,14 @@
         background-color: #A7DBD8;
         color: #fff;
         border-radius: 5px;
-        
-
+        box-shadow:
+            0 2.8px 2.2px rgba(0, 0, 0, 0.07),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.05),
+            0 12.5px 10px rgba(0, 0, 0, 0.042),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.035),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.028),
+            0 100px 80px rgba(0, 0, 0, 0.02);
     }
-
-
-
-
-
-
-
-
 
     .bottomWrapper {
         position: absolute;
@@ -186,6 +220,22 @@
     }
 
 
+
+
+
+    /*------HOVERS & SUCH------*/
+
+
+    .bookCleaner-btn:active {
+        box-shadow: none;
+    }
+
+    .email:focus {
+        width: 230px;
+        background-color: rgba(167, 219, 216, 0.288);
+        border-radius: 20px;
+        opacity: 1;
+    }
 
 
 }
