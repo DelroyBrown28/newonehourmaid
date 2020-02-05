@@ -77,17 +77,20 @@
         /* Edge */
         color: #000;
         text-align: center;
+        transition: 1s;
     }
 
     :-ms-input-placeholder {
         /* Internet Explorer 10-11 */
         color: #000;
         text-align: center;
+        transition: 1s;
     }
 
     ::placeholder {
         color: #000;
         text-align: center;
+        transition: 1s;
     }
 
     .service-box,
@@ -192,19 +195,21 @@
     .bottomContents {
         position: absolute;
         height: 45px;
-        width: 292px;
+        width: 325px;
         display: flex;
         align-items: center;
+        justify-content: space-between;
     }
 
     .serviceInfo-box,
     .bedroomInfo-box,
     .bathroomInfo-box,
     .kitchenInfo-box {
-        position: absolute;
+        position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
+
 
     }
 
@@ -217,25 +222,22 @@
     .bedroomInfo-box {
         height: 25px;
         width: 57px;
-        left: 95px;
     }
 
     .bathroomInfo-box {
         height: 25px;
         width: 57px;
-        left: 164px;
     }
 
     .kitchenInfo-box {
         height: 25px;
         width: 57px;
-        right: 0;
     }
 
 
     .serviceInfo-text {
-        position: absolute;
-        right: 0px;
+        position: relative;
+        left: 12px;
         font-size: 22px;
         margin: 0;
     }
@@ -289,6 +291,7 @@
     }
 
 
+
     /*------HOVERS & SUCH------*/
 
     .bookCleaner-btn:active {
@@ -305,7 +308,7 @@
     }
 
     input:focus::placeholder {
-        color: transparent;
+        text-indent: 1000px;
 
     }
 
