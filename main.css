@@ -16,6 +16,20 @@
         flex-direction: column;
     }
 
+    .topWrapper-desktop,
+    .logo-desktop,
+    .sub-title-desktop,
+    .logInButton-desktop,
+    .registerButton-desktop,
+    .emailWrap-desktop,
+    .emailWrap-desktop,
+    .centerWrapper-desktop,
+    .buttonWrap-desktop,
+    .bookCleanerBtn-desktop,
+    .bottomWrapper-desktop {
+        display: none;
+    }
+
     .topWrapper {
         position: relative;
         height: 65px;
@@ -331,6 +345,21 @@
         display: flex;
         flex-direction: column;
     }
+
+    .topWrapper-desktop,
+    .logo-desktop,
+    .sub-title-desktop,
+    .logInButton-desktop,
+    .registerButton-desktop,
+    .emailWrap-desktop,
+    .emailWrap-desktop,
+    .centerWrapper-desktop,
+    .buttonWrap-desktop,
+    .bookCleanerBtn-desktop,
+    .bottomWrapper-desktop {
+        display: none;
+    }
+
 
     .topWrapper {
         position: relative;
@@ -1557,10 +1586,10 @@
     }
 
     .email:focus {
-        width: 80%;
-        height: 80%;
+        width: 70%;
+        height: 70%;
         background-color: rgba(167, 219, 216, 0.5);
-        border-radius: 5px;
+        border-radius: 85px;
         border-top: 2px solid rgb(156, 202, 200);
         border-bottom: 2px solid rgb(156, 202, 200);
         color: #E08872;
@@ -1899,6 +1928,8 @@
     }
 }
 
+/*-----------Desktop-----------*/
+
 @media only screen and (min-device-width : 1920px) {
 
     body,
@@ -1950,12 +1981,14 @@
 
     .logo-desktop {
         position: absolute;
+        display: block;
         height: 60px;
         top: 30px;
     }
 
     .sub-title-desktop {
         position: absolute;
+        display: block;
         top: 73px;
         font-size: 11px;
     }
@@ -2096,14 +2129,14 @@
         height: 50px;
         width: 100%;
         bottom: 230px;
-        
+
     }
 
     .bottomContents-desktop {
         position: absolute;
         width: 600px;
         height: 50px;
-        
+
         justify-content: space-evenly;
     }
 
@@ -2113,7 +2146,7 @@
     .kitchenInfoBox-desktop {
         position: relative;
         width: 150px;
-        
+
         height: 50px;
 
     }
