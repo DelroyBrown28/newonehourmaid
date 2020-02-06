@@ -1604,7 +1604,7 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        
+
 
     }
 
@@ -1629,7 +1629,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
 
     }
 
@@ -1677,7 +1677,7 @@
         top: 0;
         display: flex;
         justify-content: center;
-        
+
 
     }
 
@@ -1687,7 +1687,7 @@
         width: 510px;
         display: flex;
         justify-content: center;
-        
+
 
     }
 
@@ -1700,7 +1700,7 @@
         width: 220px;
         display: flex;
         justify-content: center;
-        
+
 
 
     }
@@ -1777,7 +1777,7 @@
         display: flex;
         justify-content: center;
         background-color: #fff;
-        
+
 
     }
 
@@ -1788,7 +1788,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        
+
 
     }
 
@@ -1803,7 +1803,7 @@
         justify-content: center;
         align-items: center;
         bottom: 10px;
-        
+
     }
 
 
@@ -1897,4 +1897,331 @@
     .kitchen-box:active {
         background-color: #e4e4e4;
     }
+}
+
+@media only screen and (min-device-width : 1920px) {
+
+    body,
+    html {
+        width: 1920px;
+        height: 1080px;
+        margin: 0;
+        background-color: #fafafa;
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .topWrapper,
+    .emailWrap,
+    .centerWrapper,
+    .bottomWrapper {
+        display: none;
+    }
+
+    .topWrapper-desktop,
+    .logInButton-desktop,
+    .registerButton-desktop,
+    .emailWrap-desktop,
+    .centerWrapper-desktop,
+    .buttonWrap-desktop,
+    .serviceBox-desktop,
+    .bedroomBox-desktop,
+    .bathroomBox-desktop,
+    .kitchenBox-desktop,
+    .bookCleanerBtn-desktop,
+    .bottomWrapper-desktop,
+    .bottomContents-desktop,
+    .serviceInfoBox-desktop,
+    .bedroomInfoBox-desktop,
+    .bathroomInfoBox-desktop,
+    .kitchenInfoBox-desktop {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .topWrapper-desktop {
+        position: relative;
+        width: 100%;
+        height: 150px;
+
+    }
+
+    .logo-desktop {
+        position: absolute;
+        height: 60px;
+        top: 30px;
+    }
+
+    .sub-title-desktop {
+        position: absolute;
+        top: 73px;
+        font-size: 11px;
+    }
+
+    .buttonWrap {
+        position: absolute;
+        height: 40px;
+        width: 180px;
+        left: 30px;
+        top: 30px;
+    }
+
+    .logInButton-desktop,
+    .registerButton-desktop {
+        position: absolute;
+        height: 30px;
+        width: 80px;
+        border-radius: 5px;
+        font-weight: 600;
+        background-color: transparent;
+        cursor: pointer;
+
+    }
+
+    .logInButton-desktop {
+        border: 2px solid #A7DBD8;
+        color: #A7DBD8;
+    }
+
+
+    .registerButton-desktop {
+        right: 0;
+        border: 2px solid #E08872;
+        color: #E08872;
+    }
+
+    .emailWrap-desktop {
+        position: relative;
+        height: 100px;
+
+    }
+
+    .email-desktop {
+        height: 40px;
+        width: 455px;
+        border: none;
+        background-color: transparent;
+        outline: none;
+        text-align: center;
+        font-size: 25px;
+        transition: 1s;
+        transition-delay: 0.3s;
+
+    }
+
+    .centerWrapper-desktop {
+        position: relative;
+        height: 555px;
+
+    }
+
+    .buttonWrap-desktop {
+        position: absolute;
+        height: 50px;
+        width: 950px;
+        top: 105px;
+        justify-content: space-between;
+
+
+    }
+
+    .serviceBox-desktop,
+    .bedroomBox-desktop,
+    .bathroomBox-desktop,
+    .kitchenBox-desktop {
+        position: relative;
+        height: 60px;
+        width: 195px;
+        border-bottom: 2px solid #A7DBD8;
+        border-top: 2px solid #A7DBD8;
+        cursor: pointer;
+        transition: 0.3s;
+
+    }
+
+
+    .serviceIcon-dekstop,
+    .bedroomIcon-dekstop,
+    .bathroomIcon-dekstop,
+    .kitchenIcon-dekstop {
+        position: absolute;
+        left: 15px;
+
+    }
+
+    .serviceText-desktop,
+    .bedroomText-desktop,
+    .bathroomText-desktop,
+    .kitchenText-desktop {
+        position: absolute;
+        margin: 0;
+        font-size: 23px;
+
+    }
+
+
+    .bedroomText-desktop {
+        left: 47px;
+    }
+
+    .bathroomIcon-dekstop {
+        position: absolute;
+    }
+
+    .bathroomText-desktop {
+        position: absolute;
+        left: 43px;
+    }
+
+    .bookCleanerBtn-desktop {
+        position: relative;
+        height: 50px;
+        width: 165px;
+        bottom: 35px;
+        background-color: rgb(167, 219, 216);
+        border: 2px solid #A7DBD8;
+        font-weight: 600;
+        font-size: 20px;
+        color: #fff;
+        border-radius: 5px;
+        transition: 0.3s;
+        cursor: pointer;
+
+    }
+
+    .bottomWrapper-desktop {
+        position: relative;
+        height: 50px;
+        width: 100%;
+        bottom: 230px;
+        
+    }
+
+    .bottomContents-desktop {
+        position: absolute;
+        width: 600px;
+        height: 50px;
+        
+        justify-content: space-evenly;
+    }
+
+    .serviceInfoBox-desktop,
+    .bedroomInfoBox-desktop,
+    .bathroomInfoBox-desktop,
+    .kitchenInfoBox-desktop {
+        position: relative;
+        width: 150px;
+        
+        height: 50px;
+
+    }
+
+    .serviceInfoIcon-desktop,
+    .bedroomInfoIcon-desktop,
+    .bathroomInfoIcon-desktop,
+    .kitchenInfoIcon-desktop {
+        position: absolute;
+        left: 15px;
+    }
+
+    .ServiceInfotext-desktop,
+    .bedroomInfotext-desktop,
+    .bathroomInfotext-desktop,
+    .kitchenInfotext-desktop {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*------HOVERS & SUCH------*/
+
+
+    .logInButton-desktop:hover {
+        border: 2px solid #A7DBD8;
+        background-color: #A7DBD8;
+        color: #fff;
+    }
+
+    .registerButton-desktop:hover {
+        border: 2px solid #E08872;
+        background-color: #E08872;
+        color: #fff;
+    }
+
+    .email-desktop:focus {
+        width: 600px;
+        height: 100px;
+        background-color: rgba(167, 219, 216, 0.363);
+        border-radius: 55px;
+        box-shadow:
+            0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+            0 12.5px 10px rgba(0, 0, 0, 0.035),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+            0 100px 80px rgba(0, 0, 0, 0.07);
+
+    }
+
+    .serviceBox-desktop:hover,
+    .bedroomBox-desktop:hover,
+    .bathroomBox-desktop:hover,
+    .kitchenBox-desktop:hover {
+        background-color: #fff;
+        border-radius: 55px;
+    }
+
+    .serviceBox-desktop:active,
+    .bedroomBox-desktop:active,
+    .bathroomBox-desktop:active,
+    .kitchenBox-desktop:active {
+        background-color: transparent;
+        border-radius: 0;
+    }
+
+    .bookCleanerBtn-desktop:hover {
+        box-shadow:
+            0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+            0 12.5px 10px rgba(0, 0, 0, 0.035),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+            0 100px 80px rgba(0, 0, 0, 0.07);
+
+    }
+
+    .bookCleanerBtn-desktop:active {
+        box-shadow: none;
+
+    }
+
+
+
+
+
+
+
+
 }
