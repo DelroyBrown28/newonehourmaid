@@ -2070,7 +2070,7 @@
         border-bottom: 2px solid #A7DBD8;
         border-top: 2px solid #A7DBD8;
         cursor: pointer;
-        transition: 0.3s;
+        transition: 0.1s;
 
     }
 
@@ -2119,7 +2119,7 @@
         font-size: 20px;
         color: #fff;
         border-radius: 5px;
-        transition: 0.3s;
+        transition: 0.1s;
         cursor: pointer;
 
     }
@@ -2136,7 +2136,6 @@
         position: absolute;
         width: 600px;
         height: 50px;
-
         justify-content: space-evenly;
     }
 
@@ -2146,7 +2145,6 @@
     .kitchenInfoBox-desktop {
         position: relative;
         width: 150px;
-
         height: 50px;
 
     }
@@ -2223,7 +2221,15 @@
     .bathroomBox-desktop:hover,
     .kitchenBox-desktop:hover {
         background-color: #fff;
-        border-radius: 55px;
+        box-shadow:
+            0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+            0 12.5px 10px rgba(0, 0, 0, 0.035),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+            0 100px 80px rgba(0, 0, 0, 0.07);
+
+
     }
 
     .serviceBox-desktop:active,
@@ -2232,6 +2238,7 @@
     .kitchenBox-desktop:active {
         background-color: transparent;
         border-radius: 0;
+
     }
 
     .bookCleanerBtn-desktop:hover {
