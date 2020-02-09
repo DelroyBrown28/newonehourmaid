@@ -2094,6 +2094,37 @@
 
     }
 
+    .serviceOptions {
+        position: absolute;
+        top: 0;
+        left: 12px;
+        list-style: none;
+        margin: 0;
+        border-radius: 15px;
+        padding: 15px;
+        text-align: left;
+        background-color: #A7DBD8;
+        box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.07),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.05),
+            0 12.5px 10px rgba(0, 0, 0, 0.042),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.035),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.028),
+            0 100px 80px rgba(0, 0, 0, 0.02);
+
+
+    }
+
+    li {
+        margin-bottom: 15px;
+        padding: 5px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+        border-bottom: 2px solid white;
+        border-top: 2px solid white;
+        transition: 0.1s;
+    }
 
     .bedroomText-desktop {
         left: 47px;
@@ -2257,11 +2288,16 @@
 
     }
 
+    li:hover {
+        background-color: rgb(146, 201, 198);
+        cursor: pointer;
 
+    }
 
+    li:active {
+        background-color: #A7DBD8;
+        cursor: pointer;
 
-
-
-
+    }
 
 }
