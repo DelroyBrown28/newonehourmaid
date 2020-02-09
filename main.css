@@ -338,7 +338,7 @@
     body,
     html {
         width: 375px;
-        height: 812px;
+        height: 667px;
         margin: 0;
         overflow: hidden;
         background-color: #fafafa;
@@ -457,7 +457,10 @@
         justify-content: center;
     }
 
-    .serviceOptions-mobile {
+    .serviceOptions-mobile,
+    .bedroomOptions-mobile,
+    .bathroomOptions-mobile,
+    .kitchenOptions-mobile {
         position: absolute;
         top: 80px;
         left: 30px;
@@ -477,11 +480,32 @@
             0 41.8px 33.4px rgba(0, 0, 0, 0.028),
             0 100px 80px rgba(0, 0, 0, 0.02);
 
+    }
+
+    .bedroomOptions-mobile {
+        left: -60px;
+        padding: 15px 25px 15px 25px;
+        display: inline-block;
+        
+
+    }
+
+    .bathroomOptions-mobile {
+        top: -100px;
+        left: 85px;
+        padding: 15px 25px 15px 25px;
+
+    }
+
+    .kitchenOptions-mobile {
+        top: -100px;
+        left: -60px;
+        padding: 15px 25px 15px 25px;
 
     }
 
     li {
-        margin-bottom: 15px;
+        margin-bottom: 5px;
         padding: 5px;
         color: #fff;
         font-weight: 600;
@@ -577,6 +601,7 @@
         justify-content: center;
         background-color: #fff;
 
+
     }
 
     .bottomContents {
@@ -586,6 +611,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+
     }
 
     .serviceInfo-box,
@@ -715,6 +741,26 @@
         opacity: 1;
         z-index: 1;
     }
+
+    .bedroom-box:hover .bedroomOptions-mobile {
+        opacity: 1;
+        z-index: 1;
+    }
+
+    .bathroom-box:hover .bathroomOptions-mobile {
+        opacity: 1;
+        z-index: 1;
+    }
+
+    .kitchen-box:hover .kitchenOptions-mobile {
+        opacity: 1;
+        z-index: 1;
+    }
+
+
+
+
+
 
 
 }
