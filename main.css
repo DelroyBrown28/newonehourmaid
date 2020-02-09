@@ -2094,16 +2094,18 @@
 
     }
 
-    .serviceOptions {
+    #serviceOptions {
         position: absolute;
-        top: 0;
-        left: 12px;
+        display: block;
+        top: 60px;
         list-style: none;
         margin: 0;
         border-radius: 15px;
         padding: 15px;
         text-align: left;
         background-color: #A7DBD8;
+        opacity: 0;
+        transition: 0.3s;
         box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.07),
             0 6.7px 5.3px rgba(0, 0, 0, 0.05),
             0 12.5px 10px rgba(0, 0, 0, 0.042),
@@ -2112,6 +2114,10 @@
             0 100px 80px rgba(0, 0, 0, 0.02);
 
 
+    }
+
+    .serviceBox-desktop:hover #serviceOptions {
+        opacity: 1;
     }
 
     li {
