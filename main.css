@@ -2166,7 +2166,7 @@
 
     .email-desktop {
         height: 40px;
-        width: 455px;
+        width: 480px;
         border: none;
         background-color: transparent;
         outline: none;
@@ -2175,6 +2175,35 @@
         transition: 1s;
         transition-delay: 0.3s;
     }
+
+    ::-webkit-input-placeholder {
+        color: #000;
+        text-align: center;
+        transition: 1s;
+        font-size: 25px !important;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+
+    :-ms-input-placeholder {
+        color: #000;
+        text-align: center;
+        transition: 1s;
+        font-size: 25px !important;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+
+    ::placeholder {
+        color: #000;
+        text-align: center;
+        transition: 1s;
+        font-size: 25px !important;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+
+
 
     .centerWrapper-desktop {
         position: relative;
