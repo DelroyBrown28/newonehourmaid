@@ -24,7 +24,9 @@
     .calendarWrap,
     .nextBackBtnWrap,
     .backButton,
-    .nextButton {
+    .nextButton,
+    .bottomWrapper,
+    .infoWrapper {
         display: flex;
         justify-content: center;
     }
@@ -150,7 +152,6 @@
 
     .nextBackBtnWrap {
         position: relative;
-
         align-items: center;
 
     }
@@ -178,6 +179,39 @@
         margin-left: 10px;
         background-color: #E08872;
     }
+
+    .bottomWrapper {
+        position: relative;
+        border: 1px solid black;
+        height: 80px;
+        top: 15px;
+    }
+
+    .infoWrapper {
+        position: relative;
+        border: 1px solid black;
+        width: 95%;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*----HOVERS & SUCH----*/
 
 
     .date:hover {
