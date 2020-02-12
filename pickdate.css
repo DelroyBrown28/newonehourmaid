@@ -21,15 +21,16 @@
     .nextBackBtnWrap,
     .topWrapper,
     .dateWrap,
-    .calendarWrap {
+    .calendarWrap,
+    .nextBackBtnWrap,
+    .backButton,
+    .nextButton {
         display: flex;
-        align-content: center;
         justify-content: center;
     }
 
 
     .topWrapper {
-
         position: relative;
         height: 70px;
         width: 100%;
@@ -76,7 +77,9 @@
     .dateWrap {
         position: relative;
         height: 15px;
-        width: 40%;
+        width: 60%;
+
+
     }
 
     .dateMonth {
@@ -84,7 +87,19 @@
         margin: 0;
         font-size: 15px;
         font-weight: 500;
+
     }
+
+    .fa-arrow-left {
+        position: absolute;
+        left: 0;
+    }
+
+    .fa-arrow-right {
+        position: absolute;
+        right: 0;
+    }
+
 
     .calendar,
     .calendarRowOne,
@@ -121,8 +136,6 @@
         top: 200px;
     }
 
-
-
     .date {
         position: relative;
         width: 50px;
@@ -135,9 +148,42 @@
 
     }
 
+    .nextBackBtnWrap {
+        position: relative;
+
+        align-items: center;
+
+    }
+
+    .backButton,
+    .nextButton {
+        position: relative;
+        align-items: center;
+        border-radius: 5px;
+        height: 40px;
+        width: 100px;
+        font-weight: 500;
+        color: #fff;
+        background-color: #A7DBD8;
+        box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+            0 12.5px 10px rgba(0, 0, 0, 0.035),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+            0 100px 80px rgba(0, 0, 0, 0.07);
+
+    }
+
+    .nextButton {
+        margin-left: 10px;
+        background-color: #E08872;
+    }
+
+
     .date:hover {
-        background-color: transparent;
-        border-radius: 15px;
+        background-color: #fff;
+        border-radius: 3px;
+        z-index: 1;
         border: 2px solid #E08872;
         box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
             0 6.7px 5.3px rgba(0, 0, 0, 0.028),
@@ -146,6 +192,11 @@
             0 41.8px 33.4px rgba(0, 0, 0, 0.05),
             0 100px 80px rgba(0, 0, 0, 0.07);
 
+    }
+
+    .backButton:hover,
+    .nextButton:hover {
+        box-shadow: none;
     }
 
 
