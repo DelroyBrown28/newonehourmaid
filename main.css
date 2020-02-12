@@ -20,11 +20,9 @@
     .logo-desktop,
     .sub-title-desktop,
     .logInButton-desktop,
-    .registerButton-desktop,
     .emailWrap-desktop,
     .emailWrap-desktop,
     .centerWrapper-desktop,
-    .buttonWrap-desktop,
     .bookCleanerBtn-desktop,
     .bottomWrapper-desktop {
         display: none;
@@ -348,7 +346,6 @@
     .logo-desktop,
     .sub-title-desktop,
     .logInButton-desktop,
-    .registerButton-desktop,
     .emailWrap-desktop,
     .emailWrap-desktop,
     .centerWrapper-desktop,
@@ -755,7 +752,6 @@
     .logo-desktop,
     .sub-title-desktop,
     .logInButton-desktop,
-    .registerButton-desktop,
     .emailWrap-desktop,
     .emailWrap-desktop,
     .centerWrapper-desktop,
@@ -1090,7 +1086,6 @@
     .logo-desktop,
     .sub-title-desktop,
     .logInButton-desktop,
-    .registerButton-desktop,
     .emailWrap-desktop,
     .emailWrap-desktop,
     .centerWrapper-desktop,
@@ -2089,7 +2084,6 @@
 
     .topWrapper-desktop,
     .logInButton-desktop,
-    .registerButton-desktop,
     .emailWrap-desktop,
     .centerWrapper-desktop,
     .buttonWrap-desktop,
@@ -2137,8 +2131,7 @@
         top: 30px;
     }
 
-    .logInButton-desktop,
-    .registerButton-desktop {
+    .logInButton-desktop {
         position: absolute;
         height: 30px;
         width: 80px;
@@ -2151,12 +2144,6 @@
     .logInButton-desktop {
         border: 2px solid #A7DBD8;
         color: #A7DBD8;
-    }
-
-    .registerButton-desktop {
-        right: 0;
-        border: 2px solid #E08872;
-        color: #E08872;
     }
 
     .emailWrap-desktop {
@@ -2210,7 +2197,7 @@
         position: relative;
         height: 555px;
         top: 30px;
-        
+
     }
 
     .buttonWrap-desktop {
@@ -2361,11 +2348,6 @@
         color: #fff;
     }
 
-    .registerButton-desktop:hover {
-        border: 2px solid #E08872;
-        background-color: #E08872;
-        color: #fff;
-    }
 
     .email-desktop:focus {
         width: 600px;
