@@ -342,6 +342,10 @@
         flex-direction: column;
     }
 
+    a {
+        text-decoration: none;
+    }
+
     .topWrapper-desktop,
     .logo-desktop,
     .sub-title-desktop,
@@ -681,6 +685,14 @@
         box-shadow: none;
     }
 
+    a:visited,
+    a:focus,
+    a:active {
+        text-decoration: none;
+        color: #fff;
+    }
+
+
     .email:focus {
         width: 230px;
         height: 55px;
@@ -748,6 +760,10 @@
         flex-direction: column;
     }
 
+    a {
+        text-decoration: none;
+    }
+    
     .topWrapper-desktop,
     .logo-desktop,
     .sub-title-desktop,
@@ -1032,6 +1048,14 @@
     .bookCleaner-btn:active {
         box-shadow: none;
     }
+
+    a:visited,
+    a:focus,
+    a:active {
+        text-decoration: none;
+        color: #fff;
+    }
+
 
     .email:focus {
         width: 230px;
@@ -1074,6 +1098,10 @@
         flex-direction: column;
     }
 
+    a {
+        text-decoration: none;
+    }
+
     .topWrapper {
         position: relative;
         height: 65px;
@@ -1358,6 +1386,14 @@
     .bookCleaner-btn:active {
         box-shadow: none;
     }
+
+    a:visited,
+    a:focus,
+    a:active {
+        text-decoration: none;
+        color: #fff;
+    }
+
 
     .email:focus {
         width: 230px;
@@ -1401,6 +1437,11 @@
         display: flex;
         flex-direction: column;
     }
+
+    a {
+        text-decoration: none;
+    }
+
 
     .topWrapper {
         position: relative;
@@ -1713,6 +1754,15 @@
 
     /*------HOVERS & SUCH------*/
 
+
+
+    a:visited,
+    a:focus,
+    a:active {
+        text-decoration: none;
+        color: #fff;
+    }
+
     .bookCleaner-btn:active {
         box-shadow: none;
     }
@@ -1782,6 +1832,12 @@
         display: flex;
         flex-direction: column;
     }
+
+    a {
+        text-decoration: none;
+
+    }
+
 
     .topWrapper {
         position: relative;
@@ -2028,6 +2084,15 @@
 
     /*------HOVERS & SUCH------*/
 
+
+    a:visited,
+    a:focus,
+    a:active {
+        text-decoration: none;
+        color: #fff;
+    }
+
+
     .bookCleaner-btn:active {
         box-shadow: none;
     }
@@ -2080,6 +2145,10 @@
     .centerWrapper,
     .bottomWrapper {
         display: none;
+    }
+
+    a {
+        text-decoration: none;
     }
 
     .topWrapper-desktop,
@@ -2347,6 +2416,14 @@
         background-color: #A7DBD8;
         color: #fff;
     }
+
+    a:visited,
+    a:focus,
+    a:active {
+        text-decoration: none;
+        color: #fff;
+    }
+
 
 
     .email-desktop:focus {
