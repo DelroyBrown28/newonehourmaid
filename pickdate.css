@@ -1,8 +1,226 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600&display=swap');
 
-/*-----------Smartphones-----------*/
+/* Smartphones ----------- */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+    body,
+    html {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+        background-color: #fafafa;
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .centerWrapper,
+    .nextBackBtnWrap,
+    .topWrapper,
+    .dateWrap,
+    .calendarWrap,
+    .nextBackBtnWrap,
+    .backButton,
+    .nextButton,
+    .bottomWrapper,
+    .infoWrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .topWrapper {
+        position: relative;
+        height: 70px;
+        width: 100%;
+    }
+
+
+
+    .logo {
+        position: absolute;
+        height: 50px;
+        top: 10px;
+    }
+
+    .sub-title {
+        position: absolute;
+        font-size: 8px;
+        bottom: 3px;
+        margin: 0;
+    }
+
+
+    .centerWrapper {
+        position: relative;
+        height: 300px;
+        margin-top: 20px;
+        width: 100%;
+
+    }
+
+    .nextBackBtnWrap {
+        position: relative;
+        margin-top: 20px;
+        height: 50px;
+        width: 100%;
+    }
+
+    .calendarWrap {
+        position: absolute;
+        height: 280px;
+        width: 100%;
+        top: 35px;
+    }
+
+    .dateWrap {
+        position: relative;
+        height: 15px;
+        width: 60%;
+
+
+    }
+
+    .dateMonth {
+        position: absolute;
+        margin: 0;
+        font-size: 15px;
+        font-weight: 500;
+
+    }
+
+    .fa-arrow-left {
+        position: absolute;
+        left: 0;
+    }
+
+    .fa-arrow-right {
+        position: absolute;
+        right: 0;
+    }
+
+
+    .calendar,
+    .calendarRowOne,
+    .calendarRowTwo,
+    .calendarRowThree,
+    .calendarRowFour,
+    .calendarRowFive {
+        position: absolute;
+        height: 110px;
+        width: 95%;
+        top: 6.5%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .calendarRowOne {
+        top: 0;
+    }
+
+    .calendarRowTwo {
+        top: 50px;
+    }
+
+    .calendarRowThree {
+        top: 100px;
+    }
+
+    .calendarRowFour {
+        top: 150px;
+    }
+
+    .calendarRowFive {
+        top: 200px;
+    }
+
+    .date {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1px;
+        transition: 0.3s;
+
+    }
+
+    .nextBackBtnWrap {
+        position: relative;
+        align-items: center;
+
+    }
+
+    .backButton,
+    .nextButton {
+        position: relative;
+        align-items: center;
+        border-radius: 5px;
+        height: 40px;
+        width: 100px;
+        font-weight: 500;
+        color: #fff;
+        background-color: #A7DBD8;
+        box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+            0 12.5px 10px rgba(0, 0, 0, 0.035),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+            0 100px 80px rgba(0, 0, 0, 0.07);
+
+    }
+
+    .nextButton {
+        margin-left: 10px;
+        background-color: #E08872;
+    }
+
+    .bottomWrapper {
+        position: relative;
+        border: 1px solid black;
+        height: 80px;
+        top: 15px;
+    }
+
+    .infoWrapper {
+        position: relative;
+        border: 1px solid black;
+        width: 95%;
+
+    }
+
+    /*----HOVERS & SUCH----*/
+
+
+    .date:hover {
+        background-color: #fff;
+        border-radius: 3px;
+        z-index: 1;
+        border: 2px solid #E08872;
+        box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+            0 12.5px 10px rgba(0, 0, 0, 0.035),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+            0 100px 80px rgba(0, 0, 0, 0.07);
+
+    }
+
+    .backButton:hover,
+    .nextButton:hover {
+        box-shadow: none;
+    }
+
+
+}
+
+/* iPads ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
     body,
     html {
