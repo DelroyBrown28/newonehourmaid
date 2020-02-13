@@ -116,7 +116,7 @@
         display: flex;
         justify-content: center;
         flex-direction: row;
-        
+
     }
 
     .calendarRowOne {
@@ -150,6 +150,7 @@
         transition: 0.3s;
 
     }
+
     .nextBackBtnWrap {
         position: relative;
         align-items: center;
@@ -182,14 +183,14 @@
 
     .bottomWrapper {
         position: relative;
-        
+
         height: 80px;
         top: 15px;
     }
 
     .infoWrapper {
         position: relative;
-        
+
         width: 95%;
 
     }
@@ -298,7 +299,7 @@
         position: relative;
         height: 25px;
         width: 60%;
-        
+
 
     }
 
@@ -334,7 +335,7 @@
         display: flex;
         justify-content: center;
         flex-direction: row;
-        
+
     }
 
     .calendarRowOne {
@@ -351,13 +352,13 @@
 
     .calendarRowFour {
         top: 240px;
-        
+
 
     }
 
     .calendarRowFive {
         top: 320px;
-        
+
     }
 
     .date {
@@ -368,14 +369,14 @@
         align-items: center;
         justify-content: center;
         transition: 0.3s;
-        
+
 
     }
 
     .nextBackBtnWrap {
         position: relative;
         align-items: center;
-        
+
 
     }
 
@@ -412,7 +413,7 @@
 
     .infoWrapper {
         position: relative;
-        
+
         width: 95%;
 
     }
@@ -473,7 +474,7 @@
         position: relative;
         height: 70px;
         width: 100%;
-        
+
     }
 
 
@@ -497,7 +498,7 @@
         height: 450px;
         margin-top: 120px;
         width: 100%;
-        
+
 
     }
 
@@ -506,7 +507,7 @@
         top: 220px;
         height: 50px;
         width: 100%;
-        
+
     }
 
     .calendarWrap {
@@ -521,8 +522,8 @@
         height: 25px;
         width: 60%;
         bottom: 20px;
-        
-        
+
+
 
     }
 
@@ -535,8 +536,13 @@
 
     }
 
-    .fa-arrow-left {
+    .fa-arrow-left,
+    .fa-arrow-right {
         position: absolute;
+        font-size: 35px;
+    }
+
+    .fa-arrow-left {
         left: 0;
     }
 
@@ -559,7 +565,7 @@
         display: flex;
         justify-content: center;
         flex-direction: row;
-        
+
     }
 
     .calendarRowOne {
@@ -576,12 +582,12 @@
 
     .calendarRowFour {
         top: 450px;
-        
+
     }
 
     .calendarRowFive {
         top: 600px;
-        
+
     }
 
     .date {
@@ -593,7 +599,7 @@
         align-items: center;
         justify-content: center;
         transition: 0.3s;
-        
+
 
     }
 
@@ -602,7 +608,7 @@
         margin-top: 180px;
         position: relative;
         align-items: center;
-        
+
 
     }
 
@@ -639,7 +645,7 @@
 
     .infoWrapper {
         position: relative;
-        
+
         width: 95%;
 
     }
